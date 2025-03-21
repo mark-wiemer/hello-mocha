@@ -1,0 +1,29 @@
+{
+  "name": "hello-mocha",
+  "version": "1.0.0",
+  "description": "Getting started using Mocha",
+  "keywords": [
+    "mocha"
+  ],
+  "type": "module",
+  "homepage": "https://github.com/mark-wiemer/hello-mocha#readme",
+  "bugs": {
+    "url": "https://github.com/mark-wiemer/hello-mocha/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mark-wiemer/hello-mocha.git"
+  },
+  "license": "MIT",
+  "author": "Mark Wiemer",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "^11.1.0"
+  },
+  "mocha": {
+    "spec": "**/*.test.js"
+  }
+}
